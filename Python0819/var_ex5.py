@@ -1,6 +1,7 @@
 w = 10
 h = 20
-area = h * w // 2
+area = h * w // 2 #小数点表示
+area = h * w / 2
 
 print("width:", end="")
 print(w)
