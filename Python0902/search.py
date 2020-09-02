@@ -1,12 +1,12 @@
-target = "Arai"
+target = "murayam"
 names = ["Arai", "Hirose", "Nakamori"]
 flag = False
 for name in names:
     if name == target:
         flag = True
+        break
 
-
-if flag == True:
+if flag:
     print("Found")
 else:
     print("Not found")
