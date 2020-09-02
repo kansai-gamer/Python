@@ -1,8 +1,4 @@
-i = 1
-while i <= 10:
-    j = 1
-    while j <= 10 -i:
+for i in range(1, 10):
+    for j in range(1, 11 - i):
         print(i * j, end=" ")
-        j += 1
     print()
-    i += 1
