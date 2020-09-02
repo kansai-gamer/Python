@@ -1,6 +1,6 @@
 #not
 i = 1
-while i <= 9:
+while i <= 4:
     j = 1
     while j <= 9:
         print(i * j, end=" ")
