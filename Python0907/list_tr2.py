@@ -1,5 +1,6 @@
+messages = ["Hello", "Bonjour", "Ciao"]
 names = ["Alice", "Bob", "Charlie"]
 
-print("hello" , names[0])
-print("hello" , names[1])
-print("hello" , names[2])
+print(messages[0] , names[0])
+print(messages[1] , names[1])
+print(messages[2] , names[2])
