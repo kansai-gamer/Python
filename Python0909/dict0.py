@@ -1,4 +1,4 @@
-users = {"murayama": 41, "arai": 20, "tanaka": 30}
+users = {"murayama": 41, "shirai": 20, "tanaka": 30}
 
 for value in users.values():
     print(value)
