@@ -4,8 +4,6 @@ def over20ages(users):
         if age >= 20:
             result.append(name)
     return result
-    
-
 
 
 users = {"murayama": 41, "tanaka": 21, "nakamura": 18}
