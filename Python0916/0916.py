@@ -2,6 +2,10 @@
 # avg = sum(list) / len(list)
 # print(avg)
 
+# y = abs(x)
+# print(y)
+
 x = 100
-y = abs(x)
-print(y)
+y = str(x)
+print(type(y), y)
+print(type(x), x)
