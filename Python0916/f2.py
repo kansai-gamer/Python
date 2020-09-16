@@ -1,5 +1,5 @@
 a = 30
-b = 3
+b = 0
 
 #足し算関数
 def add_nums(x, y):
