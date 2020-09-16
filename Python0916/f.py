@@ -6,7 +6,7 @@ def over20ages(users):
     return result
 
 
-users = {"murayama": 41, "tanaka": 21, "nakamura": 18}
+users = {"murayama": 41, "tanaka": 21, "yoshida": 18}
 result = over20ages(users)
 for name in result:
     print(name)
