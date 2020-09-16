@@ -1,3 +1,7 @@
+# list = [i for i in range(1,101)]
+# avg = sum(list) / len(list)
+# print(avg)
 
-list = {i : i % 5 for i in range(0,100)}
-print(list)
+x = 100
+y = abs(x)
+print(y)
