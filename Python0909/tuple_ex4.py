@@ -1,2 +1,3 @@
 ages = (35, 42, 67, 34, 46)
-print(ages[0:3])
+for age in ages[0:3]:
+    print(age)
