@@ -7,15 +7,19 @@ def print_board(board):
 board = [" ", " ", " ", 
          " ", " ", " ", 
          " ", " ", " "]
+while True:
+    x = int(input("Input(1-9):"))
+    i = x - 1
+    board[i] = "o"
+    print_board(board)
 
-x = int(input("Input(1-9):"))
-i = x - 1
-board[i] = "o"
-print_board(board)
+    import random
+    while True:
+        y = random.randint(0, 8)
+        if board[y] == " ":
+            break
+        print(y)
 
-import random
-y = random.randint(0, 8)
-board[y] = "x"
 print_board(board)
 
 
