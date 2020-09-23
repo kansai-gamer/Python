@@ -3,6 +3,21 @@ def print_board(board):
     print(board[3] + "|" + board[4] + "|" + board[5])
     print(board[6] + "|" + board[7] + "|" + board[8])
     print()
+
+def judge(board, marker):
+    if board[0] == marker and board[1] == marker and board[2] == marker \
+    or board[3] == marker and board[4] == marker and board[5] == marker \
+    or board[6] == marker and board[7] == marker and board[8] == marker \
+    or board[0] == marker and board[3] == marker and board[6] == marker \
+    or board[1] == marker and board[4] == marker and board[7] == marker \
+    or board[2] == marker and board[5] == marker and board[8] == marker \
+    or board[0] == marker and board[4] == marker and board[8] == marker \
+    or board[2] == marker and board[4] == marker and board[6] == marker :
+        return True
+    return False
+
+
+
 board = [" ", " ", " ", 
          " ", " ", " ", 
          " ", " ", " "]
@@ -13,16 +28,9 @@ while True:
     board[i] = "o"
     print_board(board)
 
-    if board[0] == "o" and board[1] == "o" and board[2] == "o" \
-    or board[3] == "o" and board[4] == "o" and board[5] == "o" \
-    or board[6] == "o" and board[7] == "o" and board[8] == "o" \
-    or board[0] == "o" and board[3] == "o" and board[6] == "o" \
-    or board[1] == "o" and board[4] == "o" and board[7] == "o" \
-    or board[2] == "o" and board[5] == "o" and board[8] == "o" \
-    or board[0] == "o" and board[4] == "o" and board[8] == "o" \
-    or board[2] == "o" and board[4] == "o" and board[6] == "o" :
+    z = judge(board, "o")
+    if z:
         print("o win!!")
-        break
 
     import random
     while True:
@@ -32,17 +40,9 @@ while True:
     
     board[y] = "x"
     print_board(board)
-    if board[0] == "x" and board[1] == "x" and board[2] == "x" \
-    or board[3] == "x" and board[4] == "x" and board[5] == "x" \
-    or board[6] == "x" and board[7] == "x" and board[8] == "x" \
-    or board[0] == "x" and board[3] == "x" and board[6] == "x" \
-    or board[1] == "x" and board[4] == "x" and board[7] == "x" \
-    or board[2] == "x" and board[5] == "x" and board[8] == "x" \
-    or board[0] == "x" and board[4] == "x" and board[8] == "x" \
-    or board[2] == "x" and board[4] == "x" and board[6] == "x" :
+    z = judge(board, "x")
+    if z:
         print("x win!!")
-        break
-
 
 # print("o| | |")
 # print(" | | |")
