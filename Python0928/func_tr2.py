@@ -1,0 +1,7 @@
+price1 = "100"
+price2 = "200"
+price3 = "300"
+
+total = int(price1) + int(price2) + int(price3)
+
+print(total)
