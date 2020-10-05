@@ -1,9 +1,8 @@
-from mystats.calc import add, subtract
-from mystats.stats import mean
+import mystats
 
 x = 100
 y = 50
 
-print(add(x, y))
-print(subtract(x, y))
-print(mean(x, y))
+print(mystats.calc.add(x, y))
+print(mystats.calc.add(x, y))
+print(mystats.calc.add(x, y))
