@@ -1,2 +1,2 @@
 def mean(*args):
-    return 
+    return args
