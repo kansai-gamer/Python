@@ -1,7 +1,7 @@
 import mystats
 
-x = 100
-y = 50
+x = 200
+y = 100
 
 print(mystats.calc.add(x, y))
 print(mystats.calc.subtract(x, y))
