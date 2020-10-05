@@ -1,2 +1,2 @@
 def mean(*args):
-    return args / 2
+    return sum(args) / len(args)
