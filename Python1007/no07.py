@@ -1,6 +1,5 @@
 names = ["Andy", "Betty", "Carol"]
 
-j = 0
-for i in range(0, 3,):
-    j = j + 1
-    print(j, ":", names[i])
+for i, name in enumerate(names):
+    j = i + 1
+    print(j, ":", name)
