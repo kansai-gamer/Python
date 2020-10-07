@@ -11,7 +11,7 @@ x = []
 
 for i in range(group_count):
     x.append(group_member_count)
-    
+
 
 
 print("Member Count:", member_count)
