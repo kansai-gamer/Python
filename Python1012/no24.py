@@ -4,6 +4,7 @@ symbol1 = "*"
 symbol2 = " "
 
 i = 1
+j = 1
 while i <= rows:
     j = 1
     i += 1
@@ -16,3 +17,4 @@ while i <= rows:
                 print(symbol2, end='')
             else:
                 print(symbol1, end='')
+    print()
