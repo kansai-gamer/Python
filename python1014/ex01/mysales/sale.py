@@ -1,11 +1,10 @@
 class sale:
-    def __init__(self):
-        self.price = 800
-        self.count = 10
+    def __init__(self, price, count):
+        self.price = price
+        self.count = count
 
     def calc(self):
-        kekka = self.print * self.count
-        return int(kekka)
+        return self.price * self.count
 
     def print(self):
-        print(0)
+        print(f"{self.calc():,}")
