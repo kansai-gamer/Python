@@ -12,4 +12,5 @@ class Sale:
         print(f"{self.calc():,d}")
 
 class DailySale(Sale):
-        return datetime.date.today()
+        def get_date(self):
+            return datetime.date.today()
