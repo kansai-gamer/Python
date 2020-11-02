@@ -15,7 +15,6 @@ class DailySale(Sale):
     def __init__(self, price, count, date=None):
         super().__init__(price, count)
         self.date = datetime.date.today()
-        pass
 
     def get_date(self):
         return self.date
