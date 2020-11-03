@@ -20,3 +20,6 @@ class Sale:
 
     def set_count(self, count):
         self.__count = count
+
+    price = property(get_price, set_price)
+    count = property(get_count, set_count)
