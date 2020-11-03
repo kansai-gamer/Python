@@ -12,7 +12,7 @@ class Sale:
     def get_price(self):
         return self.__price
 
-    def set_price(self):
+    def set_price(self, price):
         self.__price = price
 
     def get_count(self):
