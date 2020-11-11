@@ -22,5 +22,5 @@ class CustomerSale:
         self.__sale = sale
 
     def print(self):
-       print(Customer)
-       print(self.__sale.calc)
+        self.__customer.print()
+        self.__sale.print()
