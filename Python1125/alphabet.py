@@ -45,6 +45,7 @@ print(alphabet)
 
 print(x)
 
+print(alphabet == x)
 # for x in alphabet:
 #     print(x)
 
