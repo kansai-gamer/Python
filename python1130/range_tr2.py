@@ -1,7 +1,7 @@
 def fizzbuzz_ganerator(start, stop):
     index = start
     while index < stop:
-        if index % 15 == 0:
+        if index % 3 == 0 and index % 5 == 0:
             print("FizzBuzz")
         
         elif index % 3 == 0:
