@@ -4,8 +4,8 @@ with open(file_name, 'r') as f:
     r = f.read()
 
 l = r.split(" ")
-print(r)
+print(l)
 
-total = sum([int(e) for e in l])
+# total = sum([int(e) for e in l])
 
-print(total)
+# print(total)
