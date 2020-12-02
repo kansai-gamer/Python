@@ -1,11 +1,11 @@
 file_name = "score.txt"
 
 with open(file_name, 'r') as f:
-    r = f.read()
+    lines = f.readlines()
+    total = 0
+    for line in lines:
+        items = line.split(" ")
+        total += sum([int(item) for item in items])
+    print(total)
 
-l = r.split(" ")
-print(l)
-
-# total = sum([int(e) for e in l])
-
-# print(total)
+    
