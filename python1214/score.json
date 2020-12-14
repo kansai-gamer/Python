@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Andy",
+        "math": 70,
+        "english": 90,
+        "science": 80
+    },
+    {
+        "name": "Betty",
+        "math": 80,
+        "english": 90,
+        "science": 100
+    },
+    {
+        "name": "Carol",
+        "math": 40,
+        "english": 90,
+        "science": 90
+    },
+    {
+        "name": "Daniel",
+        "math": 80,
+        "english": 100,
+        "science": 40
+    },
+    {
+        "name": "Ellen",
+        "math": 90,
+        "english": 70,
+        "science": 90
+    }
+]
