@@ -1,4 +1,5 @@
 import json
+import numpy
 
 class ScoreAnalyzer:
 
@@ -51,6 +52,13 @@ class ScoreAnalyzer:
             data = json.load(f)
             return cls(data)
 
+
+    def ave(self,subject):
+        for dates in self.data:
+            pass
+        print("average")
+        print(numpy.average(dates[subject]))
+
 if __name__ == "__main__":
     scores = [
         {"name": "Andy", "math": 70, "english": 90, "science": 80},
@@ -60,8 +68,8 @@ if __name__ == "__main__":
         {"name": "Ellen", "math": 90, "english": 70, "science": 90},
     ]
 
-score_analyzer = ScoreAnalyzer.load("score.json")
-score_analyzer.print_scores()
+score_analyzer = ScoreAnalyzer(scores)
+score_analyzer.ave("math")
 
 
 #最近配列使ってなかったからかなり時間かかったのは内緒
